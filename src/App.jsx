@@ -1,5 +1,6 @@
 import Animation from "./Animation";
 import GestureAnimation from "./GeastureAnimation";
+import AnimationHook from "./hooks/AnimationHook";
 import KeyFrame from "./KeyFrame";
 
 function App() {
@@ -10,7 +11,10 @@ function App() {
       {/* //! GestureAnimation */}
       {/* <GestureAnimation /> */}
       {/* //! KeyFrame */}
-      <KeyFrame />
+      {/* <KeyFrame /> */}
+
+      {/* //! Use animation hooks */}
+      <AnimationHook />
     </div>
   );
 }
