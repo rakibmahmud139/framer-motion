@@ -2,6 +2,7 @@ import Animation from "./Animation";
 import GestureAnimation from "./GeastureAnimation";
 import AnimationHook from "./hooks/AnimationHook";
 import CycleHook from "./hooks/CycleHook";
+import UseInViewHook from "./hooks/UseInViewHook";
 import KeyFrame from "./KeyFrame";
 
 function App() {
@@ -19,8 +20,11 @@ function App() {
       {/* //! Use animation hooks */}
       {/* <AnimationHook /> */}
 
-      {/* Use Cycle Hook */}
-      <CycleHook />
+      {/* //! Use Cycle Hook */}
+      {/* <CycleHook /> */}
+
+      {/* //! Use in View Hook */}
+      <UseInViewHook />
     </div>
   );
 }
